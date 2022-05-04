@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/iv_imagem"
+        android:src="@drawable/ic_launcher_background"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_descricao"
+        android:text="Aqui vai uma breve descrição"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="italic"
+
+        android:padding="10sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_imagem">
+    </TextView>
+
+</LinearLayout>
